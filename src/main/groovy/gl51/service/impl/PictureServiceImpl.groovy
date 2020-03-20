@@ -6,7 +6,7 @@ import gl51.service.PictureService
 
 
 @Singleton
-class IPServiceImpl implements PictureService {
+class PictureServiceImpl implements PictureService {
 
     @Override
     Picture fetchPicture() {
