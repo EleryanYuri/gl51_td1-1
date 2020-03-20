@@ -11,7 +11,7 @@ class PictureResizeServiceImpl implements PictureResizeService {
     @Inject PictureService pictureService
 
     @Override
-    Picture resizePicture(int width, int height)() {
+    Picture resizePicture(int width, int height) {
         Picture picture = pictureService.fetchPicture()
         picture.setWidth(width)
         picture.setHeight(height)
